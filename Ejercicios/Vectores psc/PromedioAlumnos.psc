@@ -1,6 +1,13 @@
 Algoritmo AlumnosCal
 	Definir numAl, suma Como Entero
 	Definir promnedio Como Real
+	
+	Dimension nomCal[4]
+	nomCal[1] = "Mátematicas"
+	nomCal[2] = "Español"
+	nomCal[3] = "Programación"
+	nomCal[4] = "Ingles"
+	
 	Dimension calificaciones[4]
 	
 	Escribir "Cantidad de alumnos: "
@@ -13,12 +20,9 @@ Algoritmo AlumnosCal
 		Leer nombres[J]
 		
 		Para K<-1 Hasta 4 Con Paso 1 Hacer
-			Escribir "Ingrese la calificacion: "
+			Escribir "Ingrese la calificacion de " , nomCal[K], " :"
 			Leer calificaciones[K]
-		Fin Para
-		
-		Para L<-1 Hasta 4 Con Paso 1 Hacer
-			suma = suma + calificaciones[L]
+			suma = suma + calificaciones[K]
 		Fin Para
 		
 		promedio =suma/4

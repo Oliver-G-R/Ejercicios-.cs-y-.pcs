@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Vectores
-build_property.ProjectDir = D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\
+build_property.ProjectDir = /home/oliver-gr/Projects/Ejercicios-.cs-y-.pcs/

@@ -4,6 +4,10 @@ Algoritmo GrupoProm
 	Definir nombres Como Caracter
 	Dimension calificaciones[3]
 	Dimension nombres[100]
+	Dimension nomCal[3]
+	nomCal[1] = "Español"
+	nomCal[2] = "Matemáticas"
+	nomCal[3] = "Ciencias"
 	Dimension promedio[3]
 	
 	Escribir "Cantidad de grupos que tiene la escuela: "
@@ -12,7 +16,7 @@ Algoritmo GrupoProm
 	Para F<-1 Hasta numG Con Paso 1 Hacer
 		Escribir "Cantidad de alumnos: "
 		Leer numAl
-
+		
 		nombres[100] = nombres[numAl]
 		
 		Para J<-1 Hasta numAl Con Paso 1 Hacer
@@ -20,7 +24,7 @@ Algoritmo GrupoProm
 			Leer nombres[J]
 			
 			Para K<-1 Hasta 3 Con Paso 1 Hacer
-				Escribir "Ingrese la calificacion: "
+				Escribir "Ingrese la calificacion de " , nomCal[K], " :"
 				Leer calificaciones[K]
 				suma = suma + calificaciones[K]
 			Fin Para
@@ -36,7 +40,7 @@ Algoritmo GrupoProm
 		
 		Para N<-1 Hasta numAl Con Paso 1 Hacer
 			Escribir "El promediodel alumno " + nombres[N] + " es: " , promedio[N]
-		
+			
 		Fin Para
 		
 		Escribir "El promediodel grupo " F , " es: " , promG
