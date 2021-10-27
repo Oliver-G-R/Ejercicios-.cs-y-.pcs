@@ -1,0 +1,48 @@
+using System;
+
+namespace PormAlumnos
+{
+    class PromedioAlumnos
+    {
+        static void Main(string[] args)
+        {
+            //solicite el número de alumnos a calificar y para cada alumno obtener el promedio de 4 calificaciones.
+            //imprima el nombre del alumno y el promedio de las 4 calificaciones.
+
+            int numeroAlumnos = 0;
+            int[] calificaciones = new int[4];
+            string[] nombres = new string[numeroAlumnos];
+            int promedio = 0;
+            int suma = 0;
+
+            Console.WriteLine("Ingrese el número de alumnos a calificar: ");
+            numeroAlumnos = int.Parse(Console.ReadLine());
+
+            nombres = new string[numeroAlumnos];
+
+            for (int i = 0; i < numeroAlumnos; i++)
+            {
+                Console.WriteLine("Ingrese el nombre del alumno: ");
+                nombres[i] = Console.ReadLine();
+
+                for (int j = 0; j < 4; j++)
+                {
+                    Console.WriteLine("Ingrese la calificación: ");
+                    calificaciones[j] = int.Parse(Console.ReadLine());
+                }
+
+                for (int k = 0; k < 4; k++)
+                {
+                    suma = suma + calificaciones[k];
+                }
+
+                promedio = suma / 4;
+
+                Console.WriteLine("El promedio de las 4 calificaciones del alumno " + nombres[i] + " es: " + promedio);
+                suma = 0;
+            }
+
+            Console.ReadKey();
+        }
+    }
+}

@@ -1,0 +1,32 @@
+D:\olive\Projects\C#\Yorik\Vectores\bin\Debug\net5.0\Vectores.exe
+D:\olive\Projects\C#\Yorik\Vectores\bin\Debug\net5.0\Vectores.deps.json
+D:\olive\Projects\C#\Yorik\Vectores\bin\Debug\net5.0\Vectores.runtimeconfig.json
+D:\olive\Projects\C#\Yorik\Vectores\bin\Debug\net5.0\Vectores.runtimeconfig.dev.json
+D:\olive\Projects\C#\Yorik\Vectores\bin\Debug\net5.0\Vectores.dll
+D:\olive\Projects\C#\Yorik\Vectores\bin\Debug\net5.0\ref\Vectores.dll
+D:\olive\Projects\C#\Yorik\Vectores\bin\Debug\net5.0\Vectores.pdb
+D:\olive\Projects\C#\Yorik\Vectores\obj\Debug\net5.0\Vectores.csproj.AssemblyReference.cache
+D:\olive\Projects\C#\Yorik\Vectores\obj\Debug\net5.0\Vectores.GeneratedMSBuildEditorConfig.editorconfig
+D:\olive\Projects\C#\Yorik\Vectores\obj\Debug\net5.0\Vectores.AssemblyInfoInputs.cache
+D:\olive\Projects\C#\Yorik\Vectores\obj\Debug\net5.0\Vectores.AssemblyInfo.cs
+D:\olive\Projects\C#\Yorik\Vectores\obj\Debug\net5.0\Vectores.csproj.CoreCompileInputs.cache
+D:\olive\Projects\C#\Yorik\Vectores\obj\Debug\net5.0\Vectores.dll
+D:\olive\Projects\C#\Yorik\Vectores\obj\Debug\net5.0\ref\Vectores.dll
+D:\olive\Projects\C#\Yorik\Vectores\obj\Debug\net5.0\Vectores.pdb
+D:\olive\Projects\C#\Yorik\Vectores\obj\Debug\net5.0\Vectores.genruntimeconfig.cache
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\bin\Debug\net5.0\Vectores.exe
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\bin\Debug\net5.0\Vectores.deps.json
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\bin\Debug\net5.0\Vectores.runtimeconfig.json
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\bin\Debug\net5.0\Vectores.runtimeconfig.dev.json
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\bin\Debug\net5.0\Vectores.dll
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\bin\Debug\net5.0\ref\Vectores.dll
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\bin\Debug\net5.0\Vectores.pdb
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\obj\Debug\net5.0\Vectores.csproj.AssemblyReference.cache
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\obj\Debug\net5.0\Vectores.GeneratedMSBuildEditorConfig.editorconfig
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\obj\Debug\net5.0\Vectores.AssemblyInfoInputs.cache
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\obj\Debug\net5.0\Vectores.AssemblyInfo.cs
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\obj\Debug\net5.0\Vectores.csproj.CoreCompileInputs.cache
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\obj\Debug\net5.0\Vectores.dll
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\obj\Debug\net5.0\ref\Vectores.dll
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\obj\Debug\net5.0\Vectores.pdb
+D:\olive\Projects\C#\Yorik\Ejercicios .cs y .pcs\obj\Debug\net5.0\Vectores.genruntimeconfig.cache

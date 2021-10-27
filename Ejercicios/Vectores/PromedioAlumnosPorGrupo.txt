@@ -1,0 +1,65 @@
+using System;
+
+namespace Vectores
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* Hacer un programa para obtener el promedio de cada grupo de una escuela.
+                    Se deberá preguntar al usuario cuántos grupos tiene la escuela.
+                    Para cada grupo debemos preguntar cuántos alumnos tiene y para cada alumno pedir el nombre y evaluar las calificaciones de Español, Matemáticas y Ciencias. */
+
+            int numeroAlumnos = 0;
+            int[] calificaciones = new int[4];
+            int numeroGrupos = 0;
+            string[] nombres;
+            int promediogrupo = 0;
+            int[] promedio = new int[3];
+            int suma = 0;
+            int sumProm = 0;
+
+
+            Console.WriteLine("Ingrese el numero de grupos que tiene la escuela: ");
+            numeroGrupos = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < numeroGrupos; i++)
+            {
+                Console.WriteLine($"Ingrese el numero de alumnos que tiene el grupo {i+1}: ");
+                numeroAlumnos = int.Parse(Console.ReadLine());
+                nombres =  new string[numeroAlumnos];
+
+                for (int j = 0; j < numeroAlumnos; j++)
+                {
+                    Console.WriteLine("Ingrese el nombre del alumno: ");
+                    nombres[j] = Console.ReadLine();
+                    
+
+                    for (int k = 0; k < 3; k++)
+                    {
+                        Console.WriteLine("Ingrese la calificacion del alumno: ");
+                        calificaciones[k] = int.Parse(Console.ReadLine());
+                        suma = suma + calificaciones[k];
+                    }
+
+                    promedio[j] = suma / 3;
+                    sumProm = sumProm + promedio[j];
+
+                   
+                    suma = 0;
+                }
+
+                for (int f= 0; f< numeroAlumnos; f++)
+                {
+                    Console.WriteLine($"El promedio del alumno {nombres[f]} es: {promedio[f]}");
+                }
+                
+                promediogrupo = sumProm / numeroAlumnos;
+                Console.WriteLine($"El promedio del grupo {i+1} es: " + promediogrupo);
+                sumProm = 0;
+
+            }
+            Console.ReadKey();
+        }
+    }
+}
